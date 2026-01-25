@@ -9,7 +9,7 @@ public class AppController {
 
     @GetMapping("/")
     public String hello() {
-        return "Hello Worold222";
+        return "cicd 됨?";
     }
 
 }
