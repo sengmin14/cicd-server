@@ -8,6 +8,7 @@ class CicdServerApplicationTests {
 
 	@Test
 	void contextLoads() {
+		throw new RuntimeException("fail");
 	}
 
 }
